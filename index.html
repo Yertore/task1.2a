@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<style>
+		body {background-color: powderblue;}
+		select {padding: 5px}
+		label {margin: 0 5px 0 20px;}
+		button {background-color: white; margin: 10px; padding: 5px; font-size: 16px; border-radius: 5px; border: 1px solid blue;}
+	</style>
+</head>
+<body>
+	<label style="" for="city">Город:</label>
+		<select name="city" id="city">
+			<option value="">Выберите город</option>
+			<option value="Almaty">Almaty</option>
+			<option value="Astana">Astana</option>
+			<option value="Shymkent">Shymkent</option>
+			<option value="Karagandy">Karagandy</option>
+		</select>
+    <label>Цех:</label>
+		<select style="min-width:150px;" id="shop">
+			<option selected disabled>Выберите цех</option>
+		</select>
+    <label>Сотрудник:</label>
+		<select id="employee">
+			<option selected disabled>Выберите сотрудника</option>
+		</select>
+	<label for="team">Бригада:</label>
+		<select name="team" id="team">
+			<option value="">Выберите бригаду</option>
+			<option value="Бригада #1">Бригада #1</option>
+			<option value="Бригада #2">Бригада #2</option>
+			<option value="Бригада #3">Бригада #3</option>
+			<option value="Бригада #4">Бригада #4</option>
+		</select>
+	<label for="shift">Смена:</label>
+		<select name="shift" id="shift">
+			<option value="">Выберите смену</option>
+			<option value="Ночь">Ночь</option>
+			<option value="День">День</option>
+		</select>
+	<button id = "json">Save Cookie</button>
+	
+    <script src="script.js"></script>
+</body>
+</html>
